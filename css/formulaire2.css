@@ -1,0 +1,109 @@
+*{
+    font-family: "Poppins",sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 800px;
+}
+
+legend {
+    margin-left: 0px;
+    font-weight: bold;
+    color: white;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+input, select {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+#age{
+    width: 10%;
+    margin-left: 3px;
+}
+
+label {
+    color: white;
+}
+
+option{
+    color: #000;
+}
+
+#naissance {
+    margin-left: 3px;
+}
+
+#prenom {
+    margin-left: 12px;
+}
+
+#year {
+    margin-left: 155px;
+}
+
+#matricule, #nom, #prenom, #sexe, #naissance, #age {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+#name, #sex {
+    margin-left: 20px;
+}
+
+#age {
+    margin-left: px;
+}
+
+.btn, button {
+    border: 1px solid white;
+    background-color: #43a2fa;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+    margin: 5px;
+}
+
+.btn:hover, button:hover {
+    border: 2px solid #43a2fa;
+    background-color: transparent;
+    cursor: pointer;
+    color: #43a2fa;
+}
+
+span {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#fin {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,94 @@
+body {
+	font: italic "Times New Roman";
+}
+
+h1 {
+	color: maroon;
+	text-decoration: underline;
+	text-align: center;
+}
+
+#highlighted {
+	text-decoration: overline;
+	background-color: yellow;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+#striked {
+	text-decoration: line-through;
+}
+
+#background-image {
+	background-image: url(img/back.png);
+}
+
+h2 {
+	text-decoration: underline;
+	color: maroon;
+}
+
+.rounded-bullets {
+	list-style-type: circle;
+}
+
+.square-bullets {
+	list-style-type: square;
+}
+
+.no-bullets {
+	list-style-type: none;
+}
+
+.leading-zero {
+	list-style-type: decimal-leading-zero;
+}
+
+.lowercase-alpha {
+	list-style-type: lower-alpha;
+}
+
+.roman-uppercase {
+	list-style-type: upper-roman;
+}
+
+.greek-lowercase {
+	list-style-type: lower-greek;
+}
+
+em {
+	background-color: yellow;
+}
+
+strong {
+	color: red;
+}
+
+h4 {
+	text-indent: 20px;
+	font-family: Arial, Verdana, "Times New Roman", serif;
+}
+
+.conteneur-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.carte {
+	flex: 1 1 300px;
+    min-width: 280px;
+    max-width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+	box-shadow:  rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
